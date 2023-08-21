@@ -49,9 +49,9 @@ Here's the Demo Video.
 ### Attacking Linux . 
 Open the ssh kench and generate the payload . copy into an bash shell and exit . This is an Stable Payload written with Go . Short Video Demo 
 
-### Attacking Windows . 
+### Attacking Windows using Powershell BIble .
 
-The Main Purpose of the Tool is to perform Various attacks . 
+`help` will list out the commands to exec against machine 
 
 Demo Video ...
 
