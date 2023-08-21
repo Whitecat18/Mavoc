@@ -1,6 +1,7 @@
 
-## Info 
-Mavoc is an tool used to pentest Windows and Linux machine . This tool mainly Focuses on Pentesting Windows . Made with using Powershell, C++ and Go .  This tool is Easy to use and the payloads are modifiable for your Needs .
+## Mavoc Framework [ BETA RELESE ]
+
+Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using Powershell, C++ and Go .  This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System .
 
 For More info . Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b>
 
