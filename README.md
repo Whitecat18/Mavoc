@@ -6,7 +6,8 @@ Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Foc
 For More info . Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b>
 
 ## Installation 
-The Tool can be used to get reverse shell in 3 various methods . SSH-Kench , Python and Low Func C++ (coming soon) .
+
+The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka using rev-ssh , Python and Low Func C++ (coming soon) .
 
 ```
 git clone https://github.com/Whitecat18/Mavoc
