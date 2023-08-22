@@ -4,7 +4,7 @@
 Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using Powershell, C++ and Go . This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System and can be used to add own scripts for ctf , attcking , debugging etc .. depens upon your needs .
 
  
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/96696929/262376699-99922900-8c04-42a7-9a6f-6e958b4cee46.gif" alt="demo" class="center" />
+https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bcec128e1f
 
 <h3> Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Video Demonstration</h3>
 
@@ -58,11 +58,16 @@ Open the ssh kench and generate the payload using generate linux payload. Execut
 
 Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Demo Videos .
 
-Using Python Exin.
-
 ## Attcking Windows.
 
+So the main part begins  . Lets do it
 
+`generate windows payload` and copy the payload and use your tricks and tips to deliver the payload.
+
+```
+Tip: use Direct method or My Fav Part, use the Rubber Ducky or ATTINITY85 Digispark to execute the payload or bind the payload string to any know software or programs to os modules to exec it .   
+```
+Demo Video
 
 Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Demo Videos .
 
