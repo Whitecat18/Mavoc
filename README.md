@@ -93,3 +93,5 @@ Demo Video ....
 * Copy Text: After selecting the text, press Enter to copy the selected text to the clipboard.
 * Exit Copy Mode: Press q to exit copy mode. You'll be back in the normal tmux session.
 * Paste Text: You can now paste the copied text outside the tmux session using the usual paste command for your terminal emulator (usually Ctrl + Shift + v or right-click and select "Paste").
+
+For Step By Step Process . Please Visit this Blog where they Explain step by step <b><a href="https://www.fosslinux.com/105809/tmux-copy-paste-mode-tips-and-tricks-for-productivity.htm#:~:text=Once%20you%20have%20selected%20the,text%20you%20want%20to%20paste" > Tmux Blog </a></b>
