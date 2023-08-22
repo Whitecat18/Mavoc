@@ -1,6 +1,16 @@
 
-## Mavoc Framework [ BETA RELESE ]
+## Mavoc Framework [ BETA RELEASE ]
 
+<img src="https://img.shields.io/badge/g%2B%2B-%E2%89%A5%20v12.3.0-darkcyan"> <img src="https://img.shields.io/badge/Python-%E2%89%A5%203.6-yellow.svg">
+<img src="https://img.shields.io/badge/PowerShell-%E2%89%A5%20v3.0-blue">
+<img src="https://img.shields.io/badge/Developed%20on-kali%20linux-blueviolet">
+<img src="https://img.shields.io/badge/Maintained%3F-Yes-96c40f">
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Whitecat18.Mavoc&title=Visitor )   
+<!--Please Don't Forgot to Hit :star:-->
+
+
+
+## Introduction
 Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using Powershell, C++ and Go . This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System and can be used to add own scripts for ctf , attcking , debugging etc .. depens upon your needs .
 
  
