@@ -16,7 +16,7 @@ Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Foc
  
 https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bcec128e1f
 
-<h3> Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for complete tutorial and Video Demonstration</h3>
+<h3> Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Documentation </a></b> for complete tutorial and Video Demonstration</h3>
 
 ## Installation 
 
@@ -47,7 +47,7 @@ Based on your Needs Select what you need.
 First You Will be Prompted to Enter into the shell . Based upon what you need . You can select depend upon your needs.
 
 ### SSH-Kench
-
+Blog
 After Entering ssh kench . Enter your local Ip addeess. eg:192.168.1.101 <br>
 
 Entering yes ( y ) will start an server . For Now Lets continue with  no ( n ) . 
@@ -82,15 +82,28 @@ Here's the Demo Video.
 <br> <br>
 <img src="https://github.com/Whitecat18/Mavoc/assets/96696929/38a4f75e-b0b9-480d-8678-493252a0f21f.png" height="150"/>
 
+<img src=" " height="150"/>
 ### Short Video Demo . 
 
-Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for more Demo Videos .
+Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Documentation </a></b> for more Demo Videos .
 
 ## Attcking Windows.
 
-So the main part begins  . Lets do it
+So the main part begins 👿. Lets do it
 
 `generate windows payload` and copy the payload and use your tricks and tips to deliver the payload.
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/8d6773cf-a5c1-4623-851e-4a96e02f0bf5.png" height="150"/>
+
+Copy the powershell payload and execute in the victim machine. 
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/6b13f709-5588-479e-b4d3-64ee3e0ce18d.png" height="150"/>
+
+After that check you server if you got an (RSSH) Reverse Shell connection . use ls command to check if it works and type and tab key to autocomplete the connection .
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/73f6ca44-5047-4540-815a-5e2a5c8535a7.png" height="150"/>
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/2cfc423b-517d-488e-8757-407565c0e7bb.png" height="150"/>
 
 ```
 Tip: use Direct method or My Fav Part, use the Rubber Ducky or ATTINITY85 Digispark to execute the payload or bind the payload string to any know software or programs to os modules to exec it .   
@@ -106,14 +119,51 @@ Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-wal
 Powershell bible consists of 20+ Advance attcking and Enumeration commands that will execute at 
 mavoc-shell at tmux shell .
 
-Some scripts are not added because it can be unfair to execute such scripts agaist user .  The Scripts are in the Test Mode and will be added once its compactable with all windows Machines . Powershell bible is only For Windows Operating Systems .  
+Some scripts are not added because it can be unfair to execute such scripts agaist user .The Scripts are in the Test Mode and will be added once its compactable with all windows Machines . Powershell bible is only For Windows Operating Systems . 
 
-Use `ps bible` Command to load powershell modules after getting connection from the victim . Execute `ps bible` and Type `help` for more info .
+Powershell bible is only For Windows Operating Systems .  use `ps bible` to load powershell modules 
+
+after getting connection from the victim . Execute `ps bible` . Type `help` for more info .  
+
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/7e979ea2-0fdf-4a85-b7c2-a3b152fa2d94.png" height="250"/>
+
+Ps bible can be used to Deliver the powershell scripts to perform actions . 
+
+For Example if you need to see the installed Applications on victim pc . you can drop a powershell script . just type the `list exe apps` to list it . 
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/fd1ddacc-7d21-406c-9e30-b68847372c9f.png" height="250"/>
+
+**Tip : There is an Nice Trick to get the admin shell by using get admin shell command .**
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/c25b934f-027a-4871-ae69-6781403b6cfc.png" height="250"/>
+
+Copy the above scirpt and paste in the mavoc-shell (ie) tmux shell . Executing this will send an UAC Access Permission ;)
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/8ce5ab07-aedb-4b5b-b5d4-07b2351338fb.png" height="250"/>
+
+If an Allows means . then you will get an (Admin reverse shell) 👿
+
+This is an bit hard . cuz many people wont allow it . you can use the send msg box to send a social Engineer msges to victim ;) . ie i got one of my teacher's (Admin shell) like that ;)
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/db98923e-3d63-4c50-8e3d-944340c72729.png" height="150"/>
+
+you can check if you got an admin shell by executing check if admin on ps bible. 
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/07f0ed6f-b53c-40d4-9e25-e0bb797ce413.png" height="150"/>
+
+<br>
 
 Demo Video ....
-  
+
+Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Documentation </a></b> for Demo Videos .
+
 
 ## How to Copy an text from Mavoc-Shell (ie) Tmux terminal  !  
+
+For Step By Step Process . Please Visit this Blog where they Explain step by step <b><a href="https://www.fosslinux.com/105809/tmux-copy-paste-mode-tips-and-tricks-for-productivity.htm#:~:text=Once%20you%20have%20selected%20the,text%20you%20want%20to%20paste" > Tmux Blog </a></b>
+
+Just an Referrence ...
 
 * Enter Copy Mode: Press Ctrl + b (the default tmux prefix) followed by [ to enter copy mode. This is similar to scrolling mode and allows you to navigate and select text.
 * Navigate and Select Text: Once you're in copy mode, you can use the arrow keys, Page Up, Page Down, and other navigation keys to move around and select the text you want to copy. To start selecting, move the cursor to the beginning of the text you want to copy.
@@ -122,4 +172,4 @@ Demo Video ....
 * Exit Copy Mode: Press q to exit copy mode. You'll be back in the normal tmux session.
 * Paste Text: You can now paste the copied text outside the tmux session using the usual paste command for your terminal emulator (usually Ctrl + Shift + v or right-click and select "Paste").
 
-For Step By Step Process . Please Visit this Blog where they Explain step by step <b><a href="https://www.fosslinux.com/105809/tmux-copy-paste-mode-tips-and-tricks-for-productivity.htm#:~:text=Once%20you%20have%20selected%20the,text%20you%20want%20to%20paste" > Tmux Blog </a></b>
+
