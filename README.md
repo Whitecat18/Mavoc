@@ -82,7 +82,6 @@ Here's the Demo Video.
 <br> <br>
 <img src="https://github.com/Whitecat18/Mavoc/assets/96696929/38a4f75e-b0b9-480d-8678-493252a0f21f.png" height="150"/>
 
-<img src=" " height="150"/>
 ### Short Video Demo . 
 
 Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Documentation </a></b> for more Demo Videos .
