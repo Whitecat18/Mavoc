@@ -16,7 +16,7 @@ Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Foc
  
 https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bcec128e1f
 
-<h3> Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Video Demonstration</h3>
+<h3> Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for complete tutorial and Video Demonstration</h3>
 
 ## Installation 
 
@@ -67,7 +67,7 @@ Here's the Demo Video.
 
 Open the ssh kench and generate the payload using generate linux payload. Execute in the Shell and exit . Short Video Demo . 
 
-Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Demo Videos .
+Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for more Demo Videos .
 
 ## Attcking Windows.
 
