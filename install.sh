@@ -14,7 +14,7 @@ echo -e "\e[1;31mInstalling Dependencies\e[0m"
 
 sudo apt update
 sudo apt install libcurl4-openssl-dev xterm net-tools xdotool tmux gnome-terminal python3 python3-pip -y
-pip3 install -r bin/python-exin/requirements.txt
+
 
 #----Configure Files-----#
 echo
@@ -39,8 +39,10 @@ g++ mavoc-main.cpp -lcurl -o mavoc
 g++ psw-bible.cpp -o psw-bible
 g++ mavoc-exin.cpp -o mavoc-exin
 unzip bin/python-exin.zip -d bin/
+pip3 install -r bin/python-exin/requirements.txt
 chmod +x bin/python-exin/mavoc-exin.py
 unzip bin/python-exin/mavoc-req.zip -d bin/python-exin/
+sleep 1
 clear
 echo -e "\e[1;34mConfiguring Permissions Plase wait\e[0m"
 sleep 0.5
