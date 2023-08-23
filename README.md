@@ -109,9 +109,10 @@ Copy the powershell payload and execute in the victim machine.
 
 After that check you server if you got an (RSSH) Reverse Shell connection . use ls command to check if it works and type and tab key to autocomplete the connection .
 
-<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/73f6ca44-5047-4540-815a-5e2a5c8535a7.png" height="150"/>
-
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/73f6ca44-5047-4540-815a-5e2a5c8535a7.png" height="80"/>
+<br>
 <img src="https://github.com/Whitecat18/Mavoc/assets/96696929/2cfc423b-517d-488e-8757-407565c0e7bb.png" height="150"/>
+<br>
 
 ```
 Tip: use Direct method or My Fav Part, use the Rubber Ducky or ATTINITY85 Digispark to execute the payload or bind the payload string to any know software or programs to os modules to exec it .   
