@@ -503,7 +503,7 @@ int main(){
         windows_payload(local_ip_address , local_ip_port);
         cout << "--------------" << endl; 
         cout << endl;
-        cout << YELLOW <<"Copy and Paste in the Windows Server" << RESET << endl;
+        cout << YELLOW <<"Copy and Paste in the Windows machine" << RESET << endl;
         
     }
 
@@ -516,8 +516,6 @@ int main(){
 
     else if (cmd == "generate linux payload"){
         
-
-        cout << endl << endl;
         cout << "Generating Linux Link ." << endl;
         sleep(1);
         cout << "-------------" << endl;
