@@ -15,7 +15,7 @@
 2. <a href="#working-methodology" > How it Works </a><br>
 3. <a href="#working-methodology" > Attacking Linux </a><br>
 4. <a href="#attcking-windows" > Attacking Windows </a><br>
-4. <a href="#using-powershell-bible" > Powershell bible </a><br>
+4. <a href="#using-powershell-bible" > Powershell bible Hack </a><br>
 </b>
 
 
