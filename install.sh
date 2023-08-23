@@ -48,7 +48,7 @@ g++ psw-bible.cpp -o psw-bible
 g++ mavoc-exin.cpp -o mavoc-exin
 # Wait for an Second
 echo " "
-./files/loading
+bash files/loading
 chmod +x bin/python-exin/mavoc-exin.py
 chmod +x scroll
 chmod +x server.py
