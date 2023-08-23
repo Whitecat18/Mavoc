@@ -15,7 +15,7 @@ echo -e "\e[1;32mIn case if any anyerros while working with mavoc . Run installe
 echo -e "\e[1;31mInstalling Dependencies\e[0m"
 
 sudo apt update
-sudo apt install libcurl4-openssl-dev xterm net-tools tmux gnome-terminal python3 python3-pip -y
+sudo apt install libcurl4-openssl-dev xterm net-tools unzip tmux gnome-terminal python3 python3-pip -y
 pip3 install -r bin/python-exin/requirements.txt
 
 #----Configure Files-----#
@@ -37,6 +37,7 @@ echo -e "\e[1;32mFiles configured Successfully\e[0m"
 # Compiling Programs
 echo -e "\e[1;31mCompiling ...\e[0m"
 
+unzip bin/python-exin.zip -d bin/
 unzip bin/python-exin/mavoc-req.zip -d bin/python-exin/
 
 echo " "
