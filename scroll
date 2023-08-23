@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -f ~/.tmux.conf ]; then
+    echo "set -g mouse on" >> ~/.tmux.conf
+    echo "Functions Enabled."
+else
+    echo "set -g mouse on" > ~/.tmux.conf
+    echo "Functions Enabled."
+fi
+

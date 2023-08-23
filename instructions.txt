@@ -1,0 +1,20 @@
+Using Tmux with Custom Changes
+
+Copying Text:
+
+To copy text from a pane, press your prefix key (Ctrl+a by default) and then [ to enter copy mode.
+Use arrow keys to navigate and select text.
+Press Space while holding down Shift to start selecting.
+Highlight the desired text, then press Enter to copy it.
+Pasting Text:
+
+To paste copied text, press your prefix key and then ].
+Enabling Normal Terminal Functions:
+
+With the provided configuration, you can use Ctrl+a as the prefix key instead of Ctrl+b.
+You can copy text with v (begin selection) and y (copy selection) in copy mode.
+Scrolling:
+
+To enter scroll mode, press your prefix key and then [.
+Scroll up using k or arrow keys, and scroll down using j or arrow keys.
+Exit scroll mode by pressing q.
