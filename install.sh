@@ -42,7 +42,8 @@ unzip bin/python-exin.zip -d bin/
 chmod +x bin/python-exin/mavoc-exin.py
 unzip bin/python-exin/mavoc-req.zip -d bin/python-exin/
 clear
-echo -e "\e[1;34Configuring Permissions Plase wait\e[0m"
+echo -e "\e[1;34mConfiguring Permissions Plase wait\e[0m"
+sleep 0.5
 bash files/loading
 chmod +x bin/python-exin/mavoc-exin.py
 chmod +x bin/server
