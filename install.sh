@@ -38,8 +38,9 @@ echo -e "\e[1;31mCompiling ...\e[0m"
 g++ mavoc-main.cpp -lcurl -o mavoc
 g++ psw-bible.cpp -o psw-bible
 g++ mavoc-exin.cpp -o mavoc-exin
-unzip bin/python-exin.zip
-unzip bin/python-exin/mavoc-req.zip
+unzip bin/python-exin.zip -d bin/
+chmod +x bin/python-exin/mavoc-exin.py
+unzip bin/python-exin/mavoc-req.zip -d bin/python-exin/
 chmod +x bin/python-exin/mavoc-exin.py
 chmod +x bin/server
 chmod +x server/server
