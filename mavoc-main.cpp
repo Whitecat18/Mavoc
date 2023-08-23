@@ -1,7 +1,3 @@
-/*
-Mavoc Main
-https://github.com/Whitecat18/Mavoc
-*/
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -562,7 +558,6 @@ int main(){
         cout << "\033[0;32mConnected .\033[0m" << endl;
         //sysetm(tmux_sr3.c_str());
         }
-
         else {
             //cout << "Do you wish to start Powershell Bible ? [ y/n ] : ";
             cout << "Running on the same terminal can cause opening Powershell bible (Need to Run Manually) . Do you wish to continue : [ y/n ]";
@@ -613,6 +608,7 @@ int main(){
         }
         end_banner();
         kill_psw_server();
+        system("bash fix-mavoc");
         //system("/usr/bin/bash ; ser_if=$(pgrep -f server.py); kill $ser_if &");
 
         break;
