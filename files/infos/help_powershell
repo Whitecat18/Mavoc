@@ -1,0 +1,62 @@
+Powershell Help Guide ..
+
+You can add your own commands and script inside the psw-bible. For More Info 
+Visit https://github.com/Whitecat18/Powershell-Scripts-For-Hackers-and-Pentesters
+
+[A+] -> Needs Administrator
+clear -> Clear The PS-Bible Terminal
+
+---------------------------------------------------------------------------------
+|   Normal Commands    	|      			Description  	      		| 
+|-------------------------------------------------------------------------------|
+|cls			- Clear the mavoc-shell Terminal			|
+|username 		- Display the USERNAME of the user 			|
+|save ip		- Saves Ip Address for Offline Attacks			|
+| - volume	     	- Reduce the Volume to 0				|
+| + volume	     	- Reduce the Volume to 100				|
+|shutdown		- Shutdown System in 5 Seconds				|
+|restart		- Restarts System					| 
+|system info   	     	- Displays the basic information of the system		|
+|systeminfo		- DIsplay Basic Infos Using .dll			|
+|check if admin		- Check if the Reverse Shell is Admin			| 
+|list partition		- List out the Available Partition			|
+|list service		- List the Running Services				| 
+|sleep screen  	     	- Put the screen to sleep 				|
+|enum all		- Enumerates All Basic Information From System		|
+|send msg box  	     	- Popup's message using Message.pop			|
+|kill explorer 	     	- Kill the explorer.exe					|
+|get adapter info    	- Gets adapter info eth and wlan etc ..			|
+|get routing table  	- Get network information . ip address, subnetmask etc	|
+|open custom links	- Open Links, .mp3,mp4, .html etc			|
+|get wifi creds      	- Get Wifi Credentials stored on the System		|
+|disable recommentation - Disable the Recommentatio offered by powershell	|
+|list cpu process	- List out the CPU Process [most to least]		|
+|list running services  - List out the Task Process 				|
+|search sensitive files - Checks the Important paths for Imp. Files		|
+|list unaps		- Lists 3rd Party Apps with colour Function 		|
+|list exe apps		- List 3rd Party .exe Installed Apps			|
+|open custom links	- Open custom links on an Specfic Browser wh Ful Scn	|
+|psw keylog		- Enable Powershell keylogger PATH:temp [Detectable]	|				
+|check reg keys		- Check Registry Keys					|
+|low keylog		- C++ Basic Keylogger. Execute it for more info		|
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+|  Attacking Commands   |               	 Description         		|
+---------------------------------------------------------------------------------
+|load ram		- Loads 100% Ram on Attackers PC     			|
+|load cpu 		- Loads 100% Core on Attacker PC     			|
+|clear temp files       - Clears Temp and Cache Files	     			|
+|get admin shell	- Promt the UAC to user to Get Administrator		|
+|change user password  	- Change the currnet user's password [A+] 		|
+|disable key-mouse 	- Disables Keyboard and Mouse [A+]			|
+|enable key-mouse	- Enable Keyboard and Mouse [A+]			|
+|remove win-key		- Removes WIndows Activation Keys (Not OEM)[A+] 	|
+|erase disk 		- Format the HDD Volumes [A+] 				|
+|del sys32		- Deletes System 32 frm PC [A+] 			|
+|disable defender	- Disable Windows Real Time Protection [A+]		|
+---------------------------------------------------------------------------------
+
+Note : Some Attacking Command Needs Admin Privilages [A+] .
+

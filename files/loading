@@ -1,0 +1,28 @@
+#!/bin/bash
+
+print_loading_bar() {
+    local progress=$1
+    local total=$2
+    local length=40
+    local num_chars=$((progress * length / total))
+    local bar="["
+
+    for ((i=0; i<num_chars; i++)); do
+        bar+="="
+    done
+
+    for ((i=num_chars; i<length; i++)); do
+        bar+=" "
+    done
+
+    bar+="] $((progress * 100 / total))%"
+    echo -ne "$bar\r"
+}
+
+total_steps=25
+for ((step=1; step<=total_steps; step++)); do
+    print_loading_bar $step $total_steps
+    sleep 0.1
+done
+
+echo

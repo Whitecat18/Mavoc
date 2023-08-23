@@ -1,0 +1,11 @@
+Mavoc-Exin 
+
+ Commands			Description
+-------------			-------------
+clear				Clear The Terminal
+help exin			Execute Help on Ex-pY
+generate windows payload 	Generate windows payload
+generate linux payload		Generates Linux payload	
+powershell bible		Open Powershell Bible
+exit				Exit Python Exin and Powershell bible
+
