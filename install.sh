@@ -53,7 +53,7 @@ chmod +x bin/python-exin/mavoc-exin.py
 chmod +x scroll
 chmod +x server.py
 
-
+clear
 
 echo -e "\e[1;32mSuccessfully Installed Mavoc\e[0m"
 
