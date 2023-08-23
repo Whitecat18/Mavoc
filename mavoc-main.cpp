@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <regex>
+#include <csignal>
 #include <algorithm>
 #include <filesystem>
 #include <curl/curl.h>
@@ -114,6 +115,30 @@ string getLocalIpAddress() {
 
 
     return string(localIp);
+}
+
+void kill_server(){
+    system("pkill xterm");
+    cout << "Killed Server" << "\n";
+}
+
+// Additional Features
+
+void ctrlcsignal(int signal) {
+    char y_n;
+    cout << endl;
+    cout << YELLOW << "Exit Mavoc [y/n] : " << RESET;
+    cin >> y_n;
+    if (y_n == 'y'){
+        cout << YELLOW << "Terminating Process .Please wait " << GREEN << endl;
+        kill_server();
+        system("bash fix-mavoc.sh");
+        exit(signal);
+    }
+    else {
+        cout << endl;
+        system("xdotool key Return");
+    }
 }
 
 
@@ -294,10 +319,7 @@ void server_st(){
 
 }
 
-void kill_server(){
-    system("pkill xterm");
-    cout << "Killed Server" << "\n";
-}
+
 
 void restart_ssh_server(){
     sleep(0.5);
@@ -401,7 +423,7 @@ int main(){
     //cout << "Enter your Local Ip Port to Perform [ Default Port 1234 ] :";
     //cin  >> local_ip_port;
     // ip_addr_port = local_ip_address + ":" + local_ip_port;
-    cout << endl;
+    cout << endl << endl;
 
     /*Check if all files are installed */
     ifstream fileStream(folderpath + "/" + filename);
@@ -432,10 +454,10 @@ int main(){
     sleep(0.6);
     system("clear");
     sleep(1);
-
+    
     mavoc_banner();
     
-    string cmd;
+    
     
     // Mavoc Console Starts ...
     cout << endl;
@@ -445,6 +467,10 @@ int main(){
 
 
     while (true){
+
+        string cmd;
+
+        signal(SIGINT, ctrlcsignal);
 
         cout << "Mavoc > ";
         getline(cin, cmd);
@@ -607,7 +633,7 @@ int main(){
         }
         end_banner();
         kill_psw_server();
-        system("bash fix-mavoc");
+        system("bash fix-mavoc.sh");
         //system("/usr/bin/bash ; ser_if=$(pgrep -f server.py); kill $ser_if &");
 
         break;
