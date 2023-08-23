@@ -342,8 +342,8 @@ int main(){
 
 
     cout << "Welcome to mavoc . The All in one tool to pentest Windows and Linux machines" << endl;
-    cout << "What do you want to use to pentest ?" << endl;
-    cout << " 1. SSH-Kench Method \n 2. Python-Exin \n 3. Low-Func C,C++ (Coming Soon) \n 4. Exit \n\n Option : ";
+    cout << "What do you want to use to pentest ?" << endl << endl;
+    cout << " 1. SSH-Kench \n 2. Python-Exin \n 3. Low-Func C,C++ (Coming Soon) \n 4. Exit \n\n Option : ";
     cin >> select;
 
     if (select == 1){
@@ -439,12 +439,13 @@ int main(){
     
     // Mavoc Console Starts ...
     cout << endl;
-    cout << "[\033[0;36mINFO\033[0m]  " << "ssH-Kench loaded Addressed with "<< GREEN << local_ip_address << RESET << ":" << YELLOW << local_ip_port << RESET << endl;
+    cout << "[\033[0;36mINFO\033[0m]  " << "Ssh-Kench Server Addressed with "<< GREEN << local_ip_address << RESET << ":" << YELLOW << local_ip_port << RESET << endl;
     cout << "[\033[0;36mINFO\033[0m]  " << "Psw-Bible Server Addressed with "<< GREEN << local_ip_address << RESET << ":" << YELLOW << "80" << RESET << endl;
-    cout << "\t" << endl;
+    cout << "\t";
 
 
     while (true){
+
         cout << "Mavoc > ";
         getline(cin, cmd);
 
@@ -501,8 +502,8 @@ int main(){
         cout << "--------------"<< endl;
         windows_payload(local_ip_address , local_ip_port);
         cout << "--------------" << endl; 
-        cout << " \n\n " << endl;
-        cout << "Copy and Paste in the Windows Server" << endl;
+        cout << endl;
+        cout << YELLOW <<"Copy and Paste in the Windows Server" << RESET << endl;
         
     }
 
@@ -522,15 +523,15 @@ int main(){
         cout << "-------------" << endl;
         linux_payload(local_ip_address, local_ip_port);
         cout << "-------------" << endl;
-        cout << "\n\n"<< endl;
-        cout << "Copy and paste it in the linux machine" << endl;
+        cout << endl;
+        cout << GREEN <<"Copy and paste it in the linux machine" << RESET <<endl;
     }
 
     // connection series for reverse_ssh 
     else if (cmd == "connect server")
     {
         cout << "Connecting to Server ...\n\n" << endl;
-        cout << "Do you wish to operate the server from new Terminal . using here will lose the Functionality of the program. [ y/n ] :";
+        cout << "Do you wish to operate the server from new Terminal . Using here will lose the Functionality of the program. [ y/n ] :";
         cin >> y_n; 
 
         // code to find the username for the current user
