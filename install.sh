@@ -39,6 +39,8 @@ g++ mavoc-main.cpp -lcurl -o mavoc
 g++ psw-bible.cpp -o psw-bible
 g++ mavoc-exin.cpp -o mavoc-exin
 chmod +x bin/python-exin/mavoc-exin.py
+chmod +x bin/server
+chmod +x server/server
 chmod +x scroll
 chmod +x server.py
 
