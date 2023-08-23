@@ -3,15 +3,15 @@
 
 <img src="https://img.shields.io/badge/g%2B%2B-%E2%89%A5%20v12.3.0-darkcyan"> <img src="https://img.shields.io/badge/Python-%E2%89%A5%203.6-yellow.svg">
 <img src="https://img.shields.io/badge/PowerShell-%E2%89%A5%20v3.0-blue">
-<img src="https://img.shields.io/badge/Developed%20on-kali%20linux-blueviolet">
-<img src="https://img.shields.io/badge/Maintained%3F-Yes-96c40f">
+<img src="https://img.shields.io/badge/Developed%20on-kali%20linux-darkblue">
+<img src="https://img.shields.io/badge/Maintained%3F-Yes-Green">
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Whitecat18.Mavoc&title=Visitor )   
 <!--Please Don't Forgot to Hit :star:-->
 
 
 
 ## Introduction
-Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using Powershell, C++ and Go . This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System and can be used to add own scripts for ctf , attcking , debugging etc .. depens upon your needs .
+Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using  C++, Powershell and the server made with Python and go . This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System and can be used to add own scripts for ctf , attcking , debugging etc .. depens upon your needs .
 
  
 https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bcec128e1f
@@ -20,7 +20,7 @@ https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bc
 
 ## Installation 
 
-The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka using rev-ssh , Python and Low Func C++ (coming soon) .
+The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka using rev-ssh RSSH , Python and Low Func C++ (coming soon) .
 
 ```
 git clone https://github.com/Whitecat18/Mavoc
