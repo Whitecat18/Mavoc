@@ -47,6 +47,7 @@ Based on your Needs Select what you need.
 First You Will be Prompted to Enter into the shell . Based upon what you need . You can select depend upon your needs.
 
 ### SSH-Kench
+
 After Entering ssh kench . Enter your local Ip addeess. eg:192.168.1.101 <br>
 
 Entering yes ( y ) will start an server . For Now Lets continue with  no ( n ) . 
@@ -62,9 +63,26 @@ Entering help command will display the avaiable cmds to execute . From There , l
 After Executing the payload given by the mavoc . you will get an connection to the mavoc-shell . 
 Here's the Demo Video.
 
+**Note : Mavoc Server supports tab completion . you can use it to connect machines using connect  and by pressing tab key to autocomplete .**
+
 ## Attacking Linux 
 
-Open the ssh kench and generate the payload using generate linux payload. Execute in the Shell and exit . Short Video Demo . 
+#### Open the ssh kench and generate the payload using generate linux payload. Execute in the Shell and exit . 
+
+<center><img src="https://github.com/Whitecat18/Mavoc/assets/96696929/81af06a1-cca4-440c-8c4d-2f3712ac99ea.png" height="150"/></center>
+
+#### exec the payload to linux shell and exit . 
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/c88913c5-f094-4886-b2e2-b18c77e58757.png" height="150"/>
+<br>
+
+#### check the mavoc-shell and connect 
+
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/5836e1d9-2ef9-4a0d-ab8f-95d4051b4876.png" height="150"/>
+<br> <br>
+<img src="https://github.com/Whitecat18/Mavoc/assets/96696929/38a4f75e-b0b9-480d-8678-493252a0f21f.png" height="150"/>
+
+### Short Video Demo . 
 
 Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for more Demo Videos .
 
