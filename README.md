@@ -1,5 +1,5 @@
 
-## Mavoc Framework [ BETA RELEASE ]
+## Mavoc C2 Framework [ BETA RELEASE ]
 
 <img src="https://img.shields.io/badge/g%2B%2B-%E2%89%A5%20v12.3.0-darkcyan"> <img src="https://img.shields.io/badge/Python-%E2%89%A5%203.6-yellow.svg">
 <img src="https://img.shields.io/badge/PowerShell-%E2%89%A5%20v3.0-blue">
