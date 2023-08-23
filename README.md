@@ -118,7 +118,7 @@ Tip: use Direct method or My Fav Part, use the Rubber Ducky or ATTINITY85 Digisp
 ```
 Demo Video
 
-Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Blog </a></b> for Demo Videos .
+Please Visit <b> <a href="https://www.smukx.site/tool-walkthrough/mavoc-tool-walkthrough" > Mavoc Documentation </a></b> for Demo Videos .
 
 
 
