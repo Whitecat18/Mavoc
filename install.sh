@@ -41,16 +41,17 @@ g++ mavoc-exin.cpp -o mavoc-exin
 unzip bin/python-exin.zip -d bin/
 chmod +x bin/python-exin/mavoc-exin.py
 unzip bin/python-exin/mavoc-req.zip -d bin/python-exin/
+clear
+echo -e "\e[1;34Configuring Permissions Plase wait\e[0m"
+bash files/loading
 chmod +x bin/python-exin/mavoc-exin.py
 chmod +x bin/server
 chmod +x server/server
 chmod +x scroll
 chmod +x server.py
 
-./files/loading
-
 echo -e "\e[1;32mSuccessfully Installed Mavoc\e[0m"
-
+echo " "
 echo -e "\e[1;34mIncase If you face any while working with mavoc . Run fix-mavoc.sh\e[0m"
 
 echo -e "\e[1;36mRun ./mavoc to get started\e[0m"
