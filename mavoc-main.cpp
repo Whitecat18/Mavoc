@@ -401,7 +401,7 @@ int main(){
     //cout << "Enter your Local Ip Port to Perform [ Default Port 1234 ] :";
     //cin  >> local_ip_port;
     // ip_addr_port = local_ip_address + ":" + local_ip_port;
-    cout << endl << endl;
+    cout << endl;
 
     /*Check if all files are installed */
     ifstream fileStream(folderpath + "/" + filename);
@@ -441,7 +441,7 @@ int main(){
     cout << endl;
     cout << "[\033[0;36mINFO\033[0m]  " << "Ssh-Kench Server Addressed with "<< GREEN << local_ip_address << RESET << ":" << YELLOW << local_ip_port << RESET << endl;
     cout << "[\033[0;36mINFO\033[0m]  " << "Psw-Bible Server Addressed with "<< GREEN << local_ip_address << RESET << ":" << YELLOW << "80" << RESET << endl;
-    cout << "\t";
+    cout << "\n";
 
 
     while (true){
