@@ -291,7 +291,7 @@ void server_st(){
     // system("clear");
     system("chmod +x server/server");
     //string server_st = "gnome-terminal -- /bin/bash -c '" + currentDir + "/bin/server 0.0.0.0:1234 --insecure' &" ;
-    system("xterm -e /bin/bash -c 'cd bin ; figlet Server Pannel ; bash server 0.0.0.0:1234 --insecure' & ");
+    system("xterm -e /bin/bash -c 'cd bin ; figlet Server Pannel ; bash bin/server 0.0.0.0:1234 --insecure' & ");
     sleep(0.5);
     system(" ");
     cout << "Server started..\n ";
