@@ -24,6 +24,7 @@ The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka u
 
 ```
 git clone https://github.com/Whitecat18/Mavoc
+cd Mavoc
 bash install.sh (or) 
 chmod +x install.sh ; ./install.sh
 ./mavoc
