@@ -50,6 +50,7 @@ g++ mavoc-exin.cpp -o mavoc-exin
 echo " "
 bash files/loading
 chmod +x bin/python-exin/mavoc-exin.py
+chmod +x bin/server
 chmod +x scroll
 chmod +x server.py
 
