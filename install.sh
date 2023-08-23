@@ -38,6 +38,8 @@ echo -e "\e[1;31mCompiling ...\e[0m"
 g++ mavoc-main.cpp -lcurl -o mavoc
 g++ psw-bible.cpp -o psw-bible
 g++ mavoc-exin.cpp -o mavoc-exin
+unzip bin/python-exin.zip
+unzip bin/python-exin/mavoc-req.zip
 chmod +x bin/python-exin/mavoc-exin.py
 chmod +x bin/server
 chmod +x server/server
@@ -48,7 +50,7 @@ chmod +x server.py
 
 echo -e "\e[1;32mSuccessfully Installed Mavoc\e[0m"
 
-echo -e "\e[1;34mIncase If you are facing any Errors . Run fix-mavoc.sh\e[0m"
+echo -e "\e[1;34mIncase If you face any while working with mavoc . Run fix-mavoc.sh\e[0m"
 
 echo -e "\e[1;36mRun ./mavoc to get started\e[0m"
 
