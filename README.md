@@ -38,11 +38,20 @@ https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bc
 
 The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka using rev-ssh RSSH , Python and Low Func C++ (coming soon) .
 
+### *For Kali Linux*
 ```
 git clone https://github.com/Whitecat18/Mavoc
 cd Mavoc
 bash install.sh 
 ./mavoc
+```
+
+### *For Ubuntu and Debian*
+```
+git clone https://github.com/Whitecat18/Mavoc
+cd Mavoc
+bash install.sh 
+sudo ./mavoc
 ```
 
 On Mavoc tool . There will be 2 options . SSH Hack , Python-Exin and Low-Func. <br>
