@@ -28,7 +28,7 @@
 ## Introduction
 Mavoc is an tool used to pentest Windows and Linux machine. This tool mainly Focuses on Pentesting Windows . Made with using  C++, Powershell and the server made with Python and go . This tool is Easy to use and the payloads are modifiable for your Needs . This tool is mainly Focuses on Windows Pentesing, and Automated Various Scripts to attack windows based System and can be used to add own scripts for ctf , attcking , debugging etc .. depens upon your needs .
 
-Tested at : <b> KALI LINUX </b>
+Tested at : <b> Working at KALI LINUX </b> 
  
 https://github.com/Whitecat18/Mavoc/assets/96696929/2518e411-7b3b-4259-bf0f-15bcec128e1f
 
@@ -42,7 +42,7 @@ The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka u
 git clone https://github.com/Whitecat18/Mavoc
 cd Mavoc
 bash install.sh 
-sudo ./mavoc
+./mavoc
 ```
 
 On Mavoc tool . There will be 2 options . SSH Hack , Python-Exin and Low-Func. <br>
