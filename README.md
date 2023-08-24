@@ -42,8 +42,9 @@ The Tool can be used to get reverse shell in 3 various methods . SSH-Kench aka u
 git clone https://github.com/Whitecat18/Mavoc
 cd Mavoc
 bash install.sh 
-./mavoc
+sudo ./mavoc
 ```
+NOTE : Run Mavoc with `sudo`
 
 On Mavoc tool . There will be 2 options . SSH Hack , Python-Exin and Low-Func. <br>
 For Now SSH-Kench and Python-Exin are avaiable.
