@@ -44,7 +44,7 @@ cd Mavoc
 bash install.sh 
 sudo ./mavoc
 ```
-NOTE : Run Mavoc with `sudo`
+**NOTE : Run Mavoc with `sudo`**
 
 On Mavoc tool . There will be 2 options . SSH Hack , Python-Exin and Low-Func. <br>
 For Now SSH-Kench and Python-Exin are avaiable.
