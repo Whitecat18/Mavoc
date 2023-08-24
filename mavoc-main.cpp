@@ -294,8 +294,10 @@ void psw_server(string& power_ip_addr){
 }
 
 void kill_psw_server(){
+    
+    system("bash fix-mavoc.sh");
     system("/usr/bin/bash ; ser_if=$(pgrep -f server.py); kill $ser_if &");
-    cout << YELLOW << "Killed" << RESET << "\n";;
+    cout << YELLOW << "SEE YOU SOON..." << RESET << "\n";;
 }
 
 void server_st(){
@@ -632,8 +634,8 @@ int main(){
             kill_server();
         }
         end_banner();
-        kill_psw_server();
         system("bash fix-mavoc.sh");
+        kill_psw_server();
         //system("/usr/bin/bash ; ser_if=$(pgrep -f server.py); kill $ser_if &");
 
         break;

@@ -13,7 +13,7 @@ echo -e "\e[1;32mIn case if any anyerros while working with mavoc . Run installe
 echo -e "\e[1;31mInstalling Dependencies\e[0m"
 
 sudo apt update
-sudo apt install libcurl4-openssl-dev xterm net-tools xdotool tmux gnome-terminal python3 python3-pip -y
+sudo apt install libcurl4-openssl-dev g++ xterm net-tools xdotool tmux gnome-terminal python3 python3-pip -y
 
 
 #----Configure Files-----#
@@ -27,8 +27,8 @@ rm bin/authorized_keys
 
 ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
 cp ~/.ssh/id_rsa.pub bin/authorized_keys
-
-echo 
+sudo cp ~/.ssh/* /root/ssh
+echo
 echo
 echo -e "\e[1;32mFiles configured Successfully\e[0m"
 
@@ -48,6 +48,7 @@ echo -e "\e[1;34mConfiguring Permissions Plase wait\e[0m"
 sleep 0.5
 bash files/loading
 chmod +x bin/python-exin/mavoc-exin.py
+chmod +x fix-mavoc.sh
 chmod +x bin/server
 chmod +x server/server
 chmod +x scroll
