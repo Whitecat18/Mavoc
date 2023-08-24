@@ -437,7 +437,7 @@ int main(){
     
     // powershell bible server 
     cout << YELLOW << "Starting psw-Bible Server" << RESET << endl;
-    string power_ip_addr = "python3 server.py " + local_ip_address + " > /dev/null 2>&1 &";
+    string power_ip_addr = "sudo python3 server.py " + local_ip_address + " > /dev/null 2>&1 &";
     psw_server(power_ip_addr);
     cout << GREEN << "Psw Server Running" << RESET << endl;
     
