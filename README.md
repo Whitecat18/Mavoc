@@ -197,4 +197,7 @@ Just an Referrence ...
 * Exit Copy Mode: Press q to exit copy mode. You'll be back in the normal tmux session.
 * Paste Text: You can now paste the copied text outside the tmux session using the usual paste command for your terminal emulator (usually Ctrl + Shift + v or right-click and select "Paste").
 
+## Updates 
+
+Rewritting in Rust 🦀 
 
