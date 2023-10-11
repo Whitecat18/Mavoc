@@ -199,5 +199,5 @@ Just an Referrence ...
 
 ## Updates 
 
-Rewritting in Rust 🦀 
+Rewriting in Rust 🦀 
 
