@@ -2,10 +2,13 @@
 ## Mavoc C2 Framework [ BETA RELEASE ]
 
 <p align="center">
-  <img src="https://github.com/Whitecat18/Mavoc/assets/96696929/ed74cd1e-1f9d-4293-95e6-399d2cd74078.jpg" height="300">
+  <img src="https://github.com/Whitecat18/Mavoc/assets/96696929/ed74cd1e-1f9d-4293-95e6-399d2cd74078.jpg" height="320">
 </p>
 
 --------------------------------------
+<p align="center" >
+  <b>Project Rewritten using 🦀</b>
+</p>
 
 <img src="https://img.shields.io/badge/g%2B%2B-%E2%89%A5%20v12.3.0-darkcyan"> <img src="https://img.shields.io/badge/Python-%E2%89%A5%203.6-yellow.svg">
 <img src="https://img.shields.io/badge/PowerShell-%E2%89%A5%20v3.0-blue">
